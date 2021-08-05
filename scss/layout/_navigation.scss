@@ -1,0 +1,39 @@
+.navbar {
+    background-color: $white-color;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    min-height: 100px;
+}
+
+.nav-link { color: $dark-color; text-align: center; }
+.nav-link:hover { color: $light-blue; font-weight: bold; }
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus { outline: none; }
+
+.logo-brand {
+    max-width: 250px;
+    min-width: 160px;
+}
+
+
+.subrayado{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.subrayado::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #b06ab3, $light-blue);
+    transition: 0.3s ease width;
+    left: 40%;
+}
+
+a:hover~.subrayado::before{
+    width: 20%;
+}
+
+

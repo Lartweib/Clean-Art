@@ -1,0 +1,70 @@
+/* Reset */
+@import "scss/base/reset";
+/* variables */
+@import "scss/utilities/variables";
+/* clases color */
+@import "scss/utilities/clases_color";
+/* buttons */
+@import "scss/components/buttons";
+/* body */
+@import "scss/layout/body";
+/* navigation */
+@import "scss/layout/navigation";
+/* scroll */
+@import "scss/components/scroll";
+/* Footer */
+@import "scss/layout/footer";
+/* header */
+@import "scss/layout/header";
+/* Galeria */
+@import "scss/layout/galeria";
+/* Nosotros */
+@import "scss/layout/nosotros";
+/* Testimonios */
+@import "scss/layout/testimonios";
+/* Media queries */
+@import "scss/utilities/responsive";
+/* Formulario */
+@import "scss/components/formularios";
+
+/* Otros */
+
+a:hover { text-decoration: none; }
+
+h1 { font-size: 75px; font-weight: 700; line-height: 100px; padding-top: 120px; }
+h2 { font-size: 48px; margin-bottom: 30px; }
+h3 { font-size: 33px; }
+h5 { margin-bottom: 0px; }
+
+p { font-size: 18px; color: $dark-color; opacity: .5; line-height: 1.8; margin-bottom: 0px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

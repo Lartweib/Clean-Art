@@ -1,0 +1,23 @@
+.logo-brand-footer{
+    max-width: 500px;
+    min-width: 160px;
+    margin-bottom: 15px;
+}
+
+footer {
+    padding: 50px 0;
+    text-align: center;
+    color: $white-color;
+}
+
+footer a {
+    color: $white-color;
+}
+
+footer a:hover {
+    color: $white-color;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
