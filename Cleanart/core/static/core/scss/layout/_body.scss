@@ -1,0 +1,13 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+section { padding: 120px 0; }
+
+.divider { border-bottom: 2px solid $light-grey-color; }
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
