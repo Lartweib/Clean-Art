@@ -1,0 +1,34 @@
+.galeria-contenedor {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.galeria-contenedor img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.galeria-contenedor:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.galeria-detalles {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.galeria-detalles h2 {
+    margin-bottom: 0px;
+    color:$white-color;
+}
+
+.galeria-detalles a h2, .galeria-detalles a p {
+    color: $white-color;
+}

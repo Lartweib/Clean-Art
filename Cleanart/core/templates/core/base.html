@@ -7,13 +7,15 @@
         <meta name="author" content="Federico Ara">
         <meta name="description" content="El mejor servicio de lavanderia ubicado en Belgrano">
         <meta name="keywords" content="lavanderia, lavadero, ropa, zapatillas, acolchados, lavado, secado, planchado, Belgrano">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/estilos.css">
+
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'core/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'core/css/estilos.css' %}">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Zilla+Slab&display=swap" rel="stylesheet"> 
         <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-        <link rel="shortcut icon" href="img/iconoclean.png" />
+        <link rel="shortcut icon" href="{% static 'core/img/iconoclean.png' %}" />
         <title>Clean Art</title>
     </head>
     <body>
@@ -22,10 +24,10 @@
     <!-- Inicio navbar -->
             <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container">
-                    <img src="img/clean art 1.png" class="logo-brand" alt="logo">
+                    <img src="{% static 'core/img/clean art 1.png' %}" class="logo-brand" alt="logo">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <img src="img/menu.svg">
+                        <img src="{% static 'core/img/menu.svg' %}">
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
@@ -54,7 +56,7 @@
                     <div class="content-center justify-content-center align-items-center">
                         <h1 class="mt-5 borde">El mejor servicio de lavanderia ubicado en Belgrano</h1>
                     </div>
-                </duv>
+                </div>
             </section>
         </header>
 <!-- Inicio main -->
@@ -186,7 +188,7 @@
                                     <div class="testimonios-user">
                                         <div class="row align-items-center">
                                             <div class="col-md-3 col-3">
-                                                <img src="img/Leticia Quinn.png" class="img-fluid" alt="">
+                                                <img src="{% static 'core/img/Leticia Quinn.png' %}" class="img-fluid" alt="">
                                             </div>
                                             <div class="col-md-9 col-9">
                                                 <h6>Leticia Quinn</h6>
@@ -210,7 +212,7 @@
                                     <div class="testimonios-user">
                                         <div class="row align-items-center">
                                             <div class="col-md-3 col-3">
-                                                <img src="img/Bettina Rama Piotti.png" class="img-fluid" alt="">
+                                                <img src="{% static 'core/img/Bettina Rama Piotti.png' %}" class="img-fluid" alt="">
                                             </div>
                                             <div class="col-md-9 col-9">
                                                 <h6>Bettina Rama Piotti</h6>
@@ -234,7 +236,7 @@
                                     <div class="testimonios-user">
                                         <div class="row align-items-center">
                                             <div class="col-md-3 col-3">
-                                                <img src="img/Julie Canessa.png" class="img-fluid" alt="">
+                                                <img src="{% static 'core/img/Julie Canessa.png' %}" class="img-fluid" alt="">
                                             </div>
                                             <div class="col-md-9 col-9">
                                                 <h6>Julie Canessa</h6>
@@ -321,15 +323,15 @@
                     <li class="list-inline-item footer-menu"><a href="#contacto">Contacto</a></li>
                 </ul>
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="http://www.instagram.com/cleanart.lavadero"><img src="img/instagram.svg" class="img-fluid"></a></li>
+                    <li class="list-inline-item"><a href="http://www.instagram.com/cleanart.lavadero"><img src="{% static 'core/img/instagram.svg' %}" class="img-fluid"></a></li>
                 </ul>
                 <small>©2021 Todos los derechos reservados. Creado por <a href="https://www.linkedin.com/in/federico-daniel-ara/" class="font-weight-bold" target="_blank"
                         rel="noopener">Federico Ara</a></small>
             </div>
         </footer>
 <!-- JS -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="{% static 'core/js/jquery.min.js' %}"></script>
+        <script src="{% static 'core/js/popper.min.js' %}"></script>
+        <script src="{% static 'core/js/bootstrap.min.js' %}"></script>
     </body>
 </html>

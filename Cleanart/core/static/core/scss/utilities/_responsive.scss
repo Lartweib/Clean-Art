@@ -1,0 +1,24 @@
+@media (max-width: 575.98px) { 
+    h1 { font-size: 40px; line-height: normal; }
+    .galeria-detalles h2 { font-size: 32px; }
+    .caja { min-width: unset; padding: 40px; }
+    .carousel-item p { font-size: 20px; }
+
+    .footer-menu { 
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .galeria-detalles h2 { font-size: 30px; }
+    .caja { min-width: unset; padding: 40px 20px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .caja { min-width: unset; padding: 30px 20px;}
+}
